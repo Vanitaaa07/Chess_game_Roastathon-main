@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Event listener for the "Flip Board" button
   document.querySelector('.flip-board').addEventListener('click', () => {
       board.flip();
-      makeRandomMove();
+      //makeRandomMove();
       // Toggle user's color after flipping the board
       userColor = userColor === 'w' ? 'b' : 'w';
   });
